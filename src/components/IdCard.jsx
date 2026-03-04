@@ -1,6 +1,6 @@
 function IdCard({ id, name, role, department, avatar }) {
   return (
-    <div className="bg-white rounded-2xl shadow-lg w-72 overflow-hidden border border-gray-100">
+    <div className="bg-white rounded-2xl shadow-lg w-72 overflow-hidden border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
      
       <div className="h-2 bg-blue-500" />
 
